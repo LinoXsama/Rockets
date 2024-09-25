@@ -117,6 +117,18 @@
          <h2 class='text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white'>
             Contact
          </h2>
+
+         <form action="" class='max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-col items-self gap-4'>
+            <label for="subject">Sujet:</label>
+            <input type="text" id="subject" name="subject" placeholder="Votre sujet" minlength="3" maxlength="60" class='w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none' required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Votre message" cols="30" rows="10" class='w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none' required></textarea>
+
+            <button class='bg-teal-700 hover:bg-teal-600 active:bg-teal-500 text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none'>
+               Envoyer
+            </button>
+         </form>
       </section>
    </main>
 </body>
